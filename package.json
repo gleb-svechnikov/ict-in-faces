@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-prod": "gulp build",
     "start": "gulp start",
+    "dev": "vite",
     "pug-lint": "gulp lint:template",
     "lint:editorconfig": "editorconfig-checker"
   },
@@ -83,8 +84,11 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
     "fs.promises": "^0.1.2",
     "pinia": "^2.1.6",
+    "vite": "^4.5.0",
+    "vite-plugin-pug": "^0.3.2",
     "vue": "^3.3.0",
     "vue-router": "^4.2.5",
     "webpack-jquery-ui": "^2.0.1"
